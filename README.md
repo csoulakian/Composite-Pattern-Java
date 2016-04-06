@@ -8,3 +8,5 @@ In this project, we will practice the implementation of design pattern.  It is a
 
 You need to implement an example that uses the design of:
 –	Composite Pattern
+
+Resource: [Tutorials Point](http://www.tutorialspoint.com/design_pattern/composite_pattern.htm)
