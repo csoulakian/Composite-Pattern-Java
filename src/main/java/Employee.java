@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -19,6 +20,7 @@ public class Employee {
         this.department = department;
         this.salary = salary;
         this.status = status;
+        subordinates = new ArrayList<Employee>();
     }
 
     public void hire(Employee emp) {
@@ -51,5 +53,9 @@ public class Employee {
 
     public String getStatus() {
         return status;
+    }
+
+    public String toString() {
+        return (name + ": Employee ID #" + employeeID + ", " + department + ", $" + salary + ", " + status);
     }
 }
