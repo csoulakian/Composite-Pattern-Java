@@ -7,26 +7,26 @@ public class CompositePattern {
     public static void main(String[] args) {
 
         //set up employees
-        Employee CEO = new Employee("John", 100, "CEO", 300000, "full time");
+        Employee CEO = new Employee("Chrissy", 100, "CEO", 300000, "full time");
 
-        Employee salesDirector = new Employee("Carol", 101, "Director of Sales", 150000, "full time");
-        Employee researchDirector = new Employee("Tim", 102, "Director of R&D", 175000, "full time");
-        Employee marketingDirector = new Employee("Michelle", 103, "Director of Marketing", 150000, "full time");
+        Employee salesDirector = new Employee("Carol", 101, "Director of Sales", 175000, "full time");
+        Employee researchDirector = new Employee("Tim", 102, "Director of R&D", 200000, "full time");
+        Employee marketingDirector = new Employee("Michelle", 103, "Director of Marketing", 175000, "full time");
 
-        Employee salesTeam1 = new Employee("Jim", 111, "Sales Team Lead", 100000, "full time");
+        Employee salesTeam1 = new Employee("Jim", 111, "Sales Team Lead", 120000, "full time");
         Employee salesTeam2 = new Employee("Billy", 112, "Sales Team", 100000, "full time");
         Employee salesTeam3 = new Employee("Nicole", 113, "Sales Team", 100000, "full time");
         Employee salesAdmin = new Employee("Mike", 141, "Sales Admin", 50000, "full time");
 
-        Employee researchTeam1 = new Employee("Bob", 121, "Research Team Lead", 120000, "full time");
+        Employee researchTeam1 = new Employee("Bob", 121, "Research Team Lead", 150000, "full time");
         Employee researchTeam2 = new Employee("Tracy", 122, "Research Team", 120000, "full time");
         Employee researchTeam3 = new Employee("Penelope", 123, "Research Team", 120000, "full time");
-        Employee researchAdmin = new Employee("Tanya", 142, "Research Admin", 50000, "part time");
+        Employee researchAdmin = new Employee("Tanya", 142, "Research Admin", 35000, "part time");
 
-        Employee marketingTeam1 = new Employee("Stacy", 131, "Marketing Team Lead", 100000, "full time");
+        Employee marketingTeam1 = new Employee("Stacy", 131, "Marketing Team Lead", 120000, "full time");
         Employee marketingTeam2 = new Employee("Bryan", 132, "Marketing Team", 100000, "full time");
         Employee marketingTeam3 = new Employee("Rachel", 133, "Marketing Team", 100000, "full time");
-        Employee marketingAdmin = new Employee("Alex", 143, "Marketing Admin", 45000, "part time");
+        Employee marketingAdmin = new Employee("Alex", 143, "Marketing Admin", 30000, "part time");
 
         //set up employee hierarchy structure
         CEO.hire(salesDirector);
